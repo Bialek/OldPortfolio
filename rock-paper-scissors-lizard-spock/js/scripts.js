@@ -92,7 +92,7 @@ function checkRoundWinner(playerPick, computerPick) {
 		(computerPick == "rock" && playerPick == "lizard") ||
 		(computerPick == "lizard" && playerPick == "spock") ||
 		(computerPick == "spock" && playerPick == "rock") ||
-		(computerPick == "scissors" && playerPick == "lizar") ||
+		(computerPick == "scissors" && playerPick == "lizard") ||
 		(computerPick == "lizard" && playerPick == "paper") ||
 		(computerPick == "paper" && playerPick == "spock") ||
 		(computerPick == "spock" && playerPick == "scissors") ) {
