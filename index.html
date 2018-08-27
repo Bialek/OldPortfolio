@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,20 +11,19 @@
 	<meta name="Resource-type" content="Document" />
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="styles/fullpage.css" />
-	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/fullpage.min.css" />
+	<link rel="stylesheet" type="text/css" href="styles/styles.min.css"/>
 </head>
 <body>
-
 <div id="fullpage">
 	<div class="section " id="section0">
-		<h1>Hi, I'm Ralph, I am a beginners front-end developer. Currently, I am looking for a place for further professional development and learn new technologies.</h1>
+		<h1>Hi, I'm Rafał, I am a beginner front-end developer. Currently, I am looking for a place for further professional development and learn new technologies.</h1>
 		<a href="#about">About me<i class="fas fa-angle-down"></i></a>
 	</div>
 	<div class="section" id="section1">
 		<div class="flex-container">			
 			<h2>
-				<img src="./images/35x45E.jpg">
+				<img src="./images/35x45E.jpg" alt="me">		
 				Computers have interested me since childhood, 
 				curiosity turned into passions, which is why I decided to graduate from the IT school. 
 				There, I wrote my first "Hello World" and started to be interested in creating websites. 
@@ -32,10 +31,10 @@
 				Websites and web applications are created in: HTML, CSS, SCSS, JavaScript, Jquery, React, Redux, NodeJs, ExpressJS. 
 				I'm using Git. The code is written according to the best practices, such as BEM and DRY. 
 				The project is validated and tested. 
-				As a person I am communicative, honest, objective, I can admit guilt, I am not afraid of criticism, 
+				As a person I am communicative, honest and objective. I can admit guilt, I am not afraid of criticism, 
 				I have a large distance to myself. 
-				I perform the tasks entrusted to me conscientiously and responsibly, 
-				I try to solve my problems by myself.
+				I try to solve my problems by myself. 
+				I want to learn React Native in the future.
 			</h2>
 		</div>
 		<div class="flex-container">
@@ -54,10 +53,10 @@
 			<div class="flex-item">
 				<h4>Certificates</h4>
 				<div>
-					<a href="./images/certificate/html.jpg" target="_blank"><img src="./images/certificate/html.jpg"></a>
-					<a href="./images/certificate/css.jpg" target="_blank"><img src="./images/certificate/css.jpg"></a>
-					<a href="./images//certificate/js.jpg" target="_blank"><img src="./images/certificate/js.jpg"></a>
-					<a href="./images/certificate/kodilla.jpg" target="_blank"><img src="./images/certificate/kodilla.jpg"></a>
+					<a href="./images/certificate/html.jpg" target="_blank"><img src="./images/certificate/html-m.jpg" alt="certificate"></a>
+					<a href="./images/certificate/css.jpg" target="_blank"><img src="./images/certificate/css-m.jpg" alt="certificate"></a>
+					<a href="./images//certificate/js.jpg" target="_blank"><img src="./images/certificate/js-m.jpg" alt="certificate"></a>
+					<a href="./images/certificate/kodilla.jpg" target="_blank"><img src="./images/certificate/kodilla-m.jpg" alt="certificate"></a>
 				</div>		
 			</div>
 		</div>
@@ -90,12 +89,25 @@
 							<span>Api</span>
 						</div>
 						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-20-react-router/Database-of-countries" target="_blank"><i class="fas fa-code"></i></a>
-						<a href="./countriesdb/index.html" target="_blank"><i class="fas fa-angle-double-right"></i></a>
+						<a href="./countriesdb/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="flex-item">
-				
+				<h4>Kanban</h4>
+				<div class="miniature project3">
+					<div class="layer">
+						<div class="tech-icons">
+							<span>MongoDB</span>
+							<span>Express</span>
+							<span>React</span>
+							<span>Node</span>
+							<span>React DnD</span>
+						</div>
+						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-23-kanban" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="https://guarded-ocean-98725.herokuapp.com/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
+					</div>
+				</div>
 			</div>
 			<div class="flex-item">
 				<h4>Stopwatch</h4>
@@ -278,8 +290,7 @@
 	<div class="section" id="section6">
 	<div class="flex-container">
 			<div class="flex-item">
-				<h4>Contact form</h4>
-				<form class="contact" role="form" method="post" action="index.php#contact">
+				<form class="contact" method="post" action="index.php#contact">
 					<input type="text" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
 					<?php echo "<p>$errName</p>";?>
 					<input type="email" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
@@ -293,19 +304,20 @@
 				</form> 
 			</div>
 			<div class="flex-item">
-				<h4>Contact information</h4>
 				<div class="contact">
                     <h2><i class="fas fa-user-alt"></i><a>Białek Rafał</a></h2>
                     <h2><a href="tel:607846422"><i class="fas fa-mobile-alt"></i>607846422</a></h2>
                     <h2><a href="mailto:contact@bialekrafal.pl"><i class="far fa-envelope"></i>contact@bialekrafal.pl</a></h2>
-                    <h2><a href="https://github.com/Bialek"  target="_blank"><i class="fab fa-github"></i>github.com/Bialek</a></h2>  
+					<h2><a href="https://github.com/Bialek"  target="_blank"><i class="fab fa-github"></i>Github</a></h2>
+					<h2><a href="https://www.linkedin.com/in/rafa%C5%82-bia%C5%82ek/"  target="_blank"><i class="fab fa-linkedin"></i>linkedin</a></h2>    
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<script type="text/javascript" src="js/fullpage.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
+<script src="js/fullpage-compressed.js"></script>
+<script src="js/scripts-compressed.js"></script>
+
 </body>
 </html>

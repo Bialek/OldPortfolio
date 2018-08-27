@@ -40,7 +40,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 ?>
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -52,23 +52,55 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<meta name="Resource-type" content="Document" />
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="styles/fullpage.css" />
-	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/fullpage.min.css" />
+	<link rel="stylesheet" type="text/css" href="styles/styles.min.css"/>
 </head>
 <body>
-
 <div id="fullpage">
 	<div class="section " id="section0">
-		<div class="intro">
-			
-			<p>This example will turn to normal scroll when the window size gets smaller than 900px width</p>
-		</div>
+		<h1>Hi, I'm Rafał, I am a beginner front-end developer. Currently, I am looking for a place for further professional development and learn new technologies.</h1>
+		<a href="#about">About me<i class="fas fa-angle-down"></i></a>
 	</div>
 	<div class="section" id="section1">
-			<div class="intro">
-				
+		<div class="flex-container">			
+			<h2>
+				<img src="./images/35x45E.jpg" alt="me">		
+				Computers have interested me since childhood, 
+				curiosity turned into passions, which is why I decided to graduate from the IT school. 
+				There, I wrote my first "Hello World" and started to be interested in creating websites. 
+				I made my first commissioned website in 2015. 
+				Websites and web applications are created in: HTML, CSS, SCSS, JavaScript, Jquery, React, Redux, NodeJs, ExpressJS. 
+				I'm using Git. The code is written according to the best practices, such as BEM and DRY. 
+				The project is validated and tested. 
+				As a person I am communicative, honest and objective. I can admit guilt, I am not afraid of criticism, 
+				I have a large distance to myself. 
+				I try to solve my problems by myself. 
+				I want to learn React Native in the future.
+			</h2>
+		</div>
+		<div class="flex-container">
+			<div class="flex-item">
+				<h4>Skills</h4>
+				<div>
+					<i class="fab fa-html5"></i>			
+					<i class="fab fa-css3-alt"></i>
+					<i class="fab fa-js-square"></i>
+					<i class="fab fa-sass"></i>
+					<i class="fab fa-react"></i>
+					<i class="fab fa-git-square"></i>
+					<i class="fab fa-node"></i>	
+				</div>		
 			</div>
-			
+			<div class="flex-item">
+				<h4>Certificates</h4>
+				<div>
+					<a href="./images/certificate/html.jpg" target="_blank"><img src="./images/certificate/html-m.jpg" alt="certificate"></a>
+					<a href="./images/certificate/css.jpg" target="_blank"><img src="./images/certificate/css-m.jpg" alt="certificate"></a>
+					<a href="./images//certificate/js.jpg" target="_blank"><img src="./images/certificate/js-m.jpg" alt="certificate"></a>
+					<a href="./images/certificate/kodilla.jpg" target="_blank"><img src="./images/certificate/kodilla-m.jpg" alt="certificate"></a>
+				</div>		
+			</div>
+		</div>
 	</div>
 	<div class="section" id="section2">
 		<div class="flex-container">
@@ -82,8 +114,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>Express.js</span>
 							<span>Socket.io</span>
 						</div>
-						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-18-chat"><i class="fas fa-code"></i></a>
-						<a href="https://limitless-fjord-29023.herokuapp.com/"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-18-chat" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="https://limitless-fjord-29023.herokuapp.com/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>		
 			</div>
@@ -97,13 +129,26 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>React-router</span>
 							<span>Api</span>
 						</div>
-						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-20-react-router/Database-of-countries"><i class="fas fa-code"></i></a>
-						<a href="./countriesdb/index.html"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-20-react-router/Database-of-countries" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="./countriesdb/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="flex-item">
-				
+				<h4>Kanban</h4>
+				<div class="miniature project3">
+					<div class="layer">
+						<div class="tech-icons">
+							<span>MongoDB</span>
+							<span>Express</span>
+							<span>React</span>
+							<span>Node</span>
+							<span>React DnD</span>
+						</div>
+						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-23-kanban" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="https://guarded-ocean-98725.herokuapp.com/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
+					</div>
+				</div>
 			</div>
 			<div class="flex-item">
 				<h4>Stopwatch</h4>
@@ -113,16 +158,37 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>React.js</span>
 							<span>ES6</span>
 						</div>
-						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-15-es6/15.7-react-stopwatch"><i class="fas fa-code"></i></a>
-						<a href="./stopwatch/index.html"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-15-es6/15.7-react-stopwatch" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="./stopwatch/index.html" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="flex-item">
-				
+				<h4>ToDo list</h4>
+				<div class="miniature project5">
+					<div class="layer">
+						<div class="tech-icons">
+							<span>Ajax</span>
+							<span>JQuery</span>
+						</div>
+						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-12-ajax/12.7-TODO-list"><i class="fas fa-code"></i></a>
+						<a href="./ToDo/index.html" target="_blank"><i class="fas fa-angle-double-right"></i></a>
+					</div>
+				</div>
 			</div>
 			<div class="flex-item">
-				
+				<h4>GitHub Search Engine</h4>
+				<div class="miniature project6">
+					<div class="layer">
+						<div class="tech-icons">
+							<span>React</span>
+							<span>ES6</span>
+							<span>Api</span>
+						</div>
+						<a href="https://github.com/Bialek/Kodilla-Bootcamp/tree/master/module-15-es6/15.8-Github-users-search-engine" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="./github/index.html" target="_blank"><i class="fas fa-angle-double-right"></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -138,8 +204,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>Bootstrap3</span>
 							<span>JQuery</span>
 						</div>
-						<a href="https://github.com/Bialek/Awax-layout"><i class="fas fa-code"></i></a>
-						<a href="https://bialek.github.io/Awax-layout/"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/Awax-layout" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="https://bialek.github.io/Awax-layout/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -152,8 +218,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>Scss</span>
 							<span>Bootstrap4</span>
 						</div>
-						<a href="https://github.com/Bialek/golden-layout"><i class="fas fa-code"></i></a>
-						<a href="https://bialek.github.io/golden-layout/"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/golden-layout" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="https://bialek.github.io/golden-layout/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -167,8 +233,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>JQuery</span>
 							<span>FullPage.js</span>
 						</div>
-						<a href="https://github.com/Bialek/Photo-layout-fullpage.js"><i class="fas fa-code"></i></a>
-						<a href="https://bialek.github.io/Photo-layout-fullpage.js/"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/Photo-layout-fullpage.js" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="https://bialek.github.io/Photo-layout-fullpage.js/" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>				
 			</div>
@@ -182,10 +248,10 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					<div class="layer">
 					<div class="tech-icons">
 						<span>React</span>
-						<span>NPM</span>
+						<span>sudoku-umd</span>
 					</div>
-						<a href="https://github.com/Bialek/sudoku-react"><i class="fas fa-code"></i></a>
-						<a href="./sudoku/index.html"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/sudoku-react" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="./sudoku/index.html" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -199,8 +265,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>Bootstrap3</span>
 							<span>JavaScript</span>
 						</div>
-						<a href="https://github.com/Bialek/rock-paper-scissors-lizard-spock"><i class="fas fa-code"></i></a>
-						<a href="/rock-paper-scissors-lizard-spock/index.html"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/rock-paper-scissors-lizard-spock" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="/rock-paper-scissors-lizard-spock/index.html" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -213,8 +279,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 							<span>Css</span>
 							<span>JavaScript</span>
 						</div>
-						<a href="https://github.com/Bialek/Battleship"><i class="fas fa-code"></i></a>
-						<a href="./battleship/index.html"><i class="fas fa-angle-double-right"></i></a>
+						<a href="https://github.com/Bialek/Battleship" target="_blank"><i class="fas fa-code"></i></a>
+						<a href="./battleship/index.html" target="_blank"><i class="fas fa-angle-double-right"></i></a>
 					</div>
 				</div>				
 			</div>
@@ -265,8 +331,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<div class="section" id="section6">
 	<div class="flex-container">
 			<div class="flex-item">
-				<h4>Contact form</h4>
-				<form class="contact" role="form" method="post" action="index.php#contact">
+				<form class="contact" method="post" action="index.php#contact">
 					<input type="text" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
 					<?php echo "<p>$errName</p>";?>
 					<input type="email" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
@@ -276,23 +341,24 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					<input type="text" id="human" name="human" placeholder="2 + 3 = ?">
 					<?php echo "<p>$errHuman</p>";?>
 					<input id="submit" name="submit" type="submit" value="Send">
-					<?php echo $result; ?>	
+					<?php echo "<p>$result</p>";?>	
 				</form> 
 			</div>
 			<div class="flex-item">
-				<h4>Contact information</h4>
 				<div class="contact">
                     <h2><i class="fas fa-user-alt"></i><a>Białek Rafał</a></h2>
                     <h2><a href="tel:607846422"><i class="fas fa-mobile-alt"></i>607846422</a></h2>
                     <h2><a href="mailto:contact@bialekrafal.pl"><i class="far fa-envelope"></i>contact@bialekrafal.pl</a></h2>
-                    <h2><a href="https://github.com/Bialek"><i class="fab fa-github"></i>github.com/Bialek</a></h2>  
+					<h2><a href="https://github.com/Bialek"  target="_blank"><i class="fab fa-github"></i>Github</a></h2>
+					<h2><a href="https://www.linkedin.com/in/rafa%C5%82-bia%C5%82ek/"  target="_blank"><i class="fab fa-linkedin"></i>linkedin</a></h2>    
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<script type="text/javascript" src="js/fullpage.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
+<script src="js/fullpage-compressed.js"></script>
+<script src="js/scripts-compressed.js"></script>
+
 </body>
 </html>
