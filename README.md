@@ -1,3 +1,3 @@
-# Portfolio# Old Portfolio
+# Old Portfolio
 
 demo: https://bialek.github.io/OldPortfolio/
